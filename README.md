@@ -11,14 +11,12 @@ Note : the project is built with laravel 5.5 so PHP7+ is a requirment
 Open the .env.example and copy it to .env and update the database credentials with your own like in the example below
 
 ```php
-
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=dbname
 DB_USERNAME=root
 DB_PASSWORD=
-
 ```
 
 Now run the migrations and serve the application 
